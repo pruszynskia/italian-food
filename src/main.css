@@ -12,12 +12,32 @@ html,body {
     display: flex;
     color: white;
 }
+
+.main {
+    display: grid;
+}
+
+.content {
+    grid-row: 2 / 3;
+}
+
 .container1 {
-    display: flex;
+    /* display: flex;
     flex-wrap: wrap;
     margin: 40px;
     margin-left: 100px;
-    width: 580px;
+    width: 580px; */
+}
+.container2 {
+    display: flex;
+}
+.container3 {
+    display: flex;
+    background-color: #27292c;
+    color: white;
+}
+.container4 {
+    display: flex;
 }
 .row {
     display: flex;
@@ -27,6 +47,7 @@ html,body {
 .col {
     display: flex;
     flex-direction: column;
+
 }
 .bg {
     background-image: url('./img/Group1/Header\ Background@2x.png');
@@ -43,6 +64,7 @@ html,body {
 .header {
     display: flex;
     justify-content: flex-end;
+    grid-row: 1 / 2;
 
 }
 nav {
@@ -70,17 +92,17 @@ img {
 .img1_1{
     margin-top: 250px;
     margin-left: 760px;
-    position: absolute;
+    /* position: absolute; */
     /* right: 0; */
     /* top: 100; */
 }
 .img1_2 {
     margin-top: 720px;
     margin-left: 630px;
-    position: absolute;
+    /* position: absolute; */
 }
 .img1_3{
     margin-top: 710px;
     margin-left: 895px;
-    position: absolute;
+    /* position: absolute; */
 }
