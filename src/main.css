@@ -10,9 +10,10 @@ html,body {
     grid-gap: 1em;
     grid-template-rows: 0.5fr 1fr 0.5fr 1.5fr 1fr 1fr 1fr auto;
     grid-template-columns: repeat(4, 1fr);
-    margin-left: 2em;
-    margin-right: 2em;
     min-height: 100vh;
+}
+section {
+
 }
 .container1 {
     display: grid;
