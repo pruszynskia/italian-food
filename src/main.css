@@ -2,7 +2,6 @@ html,body {
     font-family: monospace;
     height: 100%;
     margin: 0px;
-    /* overflow: hidden; */
     scroll-behavior: smooth;    
 }
 .wrapper {
@@ -12,15 +11,20 @@ html,body {
     grid-template-columns: repeat(4, 1fr);
     min-height: 100vh;
 }
-section {
-
-}
 .container1 {
     display: grid;
     grid-column: 1 / 5;
+    color: white;
+}
+.container2 {
+    grid-column: 1 / 5;
+    display: grid;
+    grid-template-rows: 1fr 2fr 0.5fr;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.bg {
     background-image: url('./img/Group1/Header\ Background.png');
     background-size: cover;
-    color: white;
 }
 nav {
     grid-column: 3 / 5;
@@ -47,18 +51,58 @@ nav {
     grid-template-columns: repeat(3, fr);
     grid-template-rows: repeat(3, 1fr);
 }
+.section2A {
+    grid-column: 1 / 5;
+    grid-row: 1 / 2;
+    justify-content: center;
+}
+.section2A {
+    grid-column: 1 / 5;
+    grid-row: 1 / 2;
+    justify-content: center;
+    display: grid;
+}
+.section2B {
+    grid-column: 1 / 5;
+    grid-row: 2 / 3;
+    justify-content: center;
+    justify-self: center;
+    display: grid;
+    gap: 2em;
+}
+.section2C {
+    grid-column: 1 / 5;
+    grid-row: 3 / 4;
+    justify-content: center;
+    display: grid;
+}
+
 .img1A {
     grid-column: 1 / 4;
     grid-row: 1 / 4;
 }
 .img1B {
-    grid-column: 1 / 2;
+    grid-column: 1 / 4;
     grid-row: 3 / 4;
 }
 .img1C {
-    grid-column: 1 / 2;
-    grid-row: 3 / 4;
+    grid-column: 3 / 4;
+    grid-row: 2 / 4;
 }
+
+.subSection2A {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+.subSection2B {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+.subSection2C {
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+}
+
 .footer {
     grid-row: -2 / -1;
     grid-column: 1 / -1;
