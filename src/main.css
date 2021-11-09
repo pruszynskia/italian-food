@@ -12,8 +12,8 @@ html,body {
     min-height: 100vh;
 }
 .container1 {
-    display: grid;
     grid-column: 1 / 5;
+    display: grid;
     color: white;
 }
 .container2 {
@@ -31,9 +31,11 @@ html,body {
     color: white;
     place-items: center;
 }
+
 .bg {
     background-image: url('./img/Group1/Header\ Background.png');
     background-size: cover;
+    width: 100%;
 }
 nav {
     grid-column: 3 / 5;
