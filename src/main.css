@@ -22,6 +22,15 @@ html,body {
     grid-template-rows: 1fr 2fr 0.5fr;
     grid-template-columns: 1fr 1fr 1fr;
 }
+.container3 {
+    grid-column: 1 / 5;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    background-color: #27292C;
+    color: white;
+    place-items: center;
+}
 .bg {
     background-image: url('./img/Group1/Header\ Background.png');
     background-size: cover;
@@ -30,7 +39,7 @@ nav {
     grid-column: 3 / 5;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    justify-content: end;
+    justify-items: center;
     margin-top: 3em;
     border: 1px solid red;
  }
@@ -54,27 +63,68 @@ nav {
 .section2A {
     grid-column: 1 / 5;
     grid-row: 1 / 2;
-    justify-content: center;
+    justify-items: center;
 }
 .section2A {
     grid-column: 1 / 5;
     grid-row: 1 / 2;
-    justify-content: center;
+    justify-items: center;
     display: grid;
+    margin-top: 60px;
 }
 .section2B {
     grid-column: 1 / 5;
     grid-row: 2 / 3;
-    justify-content: center;
-    justify-self: center;
+    justify-items: center;
     display: grid;
     gap: 2em;
 }
 .section2C {
     grid-column: 1 / 5;
     grid-row: 3 / 4;
-    justify-content: center;
+    justify-items: center;
     display: grid;
+}
+
+.subSection2A {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+.subSection2B {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+.subSection2C {
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+}
+
+.section3A {
+grid-row: 1 / 2;
+grid-column: 1 / 3;
+justify-items: center;
+}
+.section3B {
+grid-row: 2 / 3;
+grid-column: 1 / 3;
+justify-items: center;
+display: grid;
+grid-template-rows: 1fr 1fr;
+grid-template-columns: 1fr;
+}
+.section3C {
+grid-row: 3 / 4;
+grid-column: 1 / 3;
+justify-items: center;
+}
+
+.subSection3B1 {
+    grid-row: 1 / 2;
+    grid-column: 1 / 2;
+}
+.subSection3B2 {
+    grid-row: 2 / 3;
+    grid-column: 1 / 2;
 }
 
 .img1A {
@@ -90,18 +140,6 @@ nav {
     grid-row: 2 / 4;
 }
 
-.subSection2A {
-    grid-column: 1 / 2;
-    grid-row: 1 / 2;
-}
-.subSection2B {
-    grid-column: 2 / 3;
-    grid-row: 1 / 2;
-}
-.subSection2C {
-    grid-column: 3 / 4;
-    grid-row: 1 / 2;
-}
 
 .footer {
     grid-row: -2 / -1;
