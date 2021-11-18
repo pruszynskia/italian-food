@@ -6,6 +6,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="italian food" content="This is an italian food restaurant concept website"> 
         <link rel="stylesheet" href="main.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+            rel="stylesheet">
         <script src="app.js"></script>
 
     </head>
@@ -20,7 +22,12 @@
                        <li class="navbarEl"><a href="">OUR STORY</a></li>
                        <li class="navbarEl"><a href="">CONTACT US</a></li>
                     </ul>
-                    <button class="searchBtn">SEARCH Iput</button>
+                    <form class="formSearch" id="formSearch"> 
+                        <input class="inputSearch" type="search" id="querySer" name="qSer">
+                        <button class="btnSearch"><span class="material-icons-outlined">
+                            search
+                            </span></button>
+                    </form>
                 </div>
                 <div class="section1B">
                     <img src="./img/Group1//Place Your Logo Here (Double Click to Edit).png" alt="logo">
@@ -43,17 +50,17 @@
                 <div class="section2B">
                     <div class="subSection2B1">
                         <img src="./img/Group2/Dish 1.png" alt="pasta">
-                        <h2>Lorem ipsum</h2>
+                        <h3>Lorem ipsum</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero sed perferendis fugit odit sit ea ut vel officiis soluta nulla magni, autem quo at ipsam, reiciendis nam magnam. Provident, debitis.</p>
                     </div>
                     <div class="subSection2B2">
                         <img src="./img/Group2/Dish 2.png" alt="pasta">
-                        <h2>Lorem ipsum</h2>
+                        <h3>Lorem ipsum</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero sed perferendis fugit odit sit ea ut vel officiis soluta nulla magni, autem quo at ipsam, reiciendis nam magnam. Provident, debitis.</p>
                     </div>
                     <div class="subSection2B3">
                         <img src="./img/Group2/Dish 3.png" alt="pasta">
-                        <h2>Lorem ipsum</h2>
+                        <h3>Lorem ipsum</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero sed perferendis fugit odit sit ea ut vel officiis soluta nulla magni, autem quo at ipsam, reiciendis nam magnam. Provident, debitis.</p>
                     </div>
                 </div>
@@ -83,14 +90,14 @@
                 </div>
                 <div class="section4B">
                     <h2>Discount up to 50% All Excursions</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat inventore, sed ratione, quod nisi vitae recusandae ducimus tempore tenetur porro harum placeat consectetur fuga iste quia esse cumque veniam molestiae.</p>
+                    <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat inventore, sed ratione, quod nisi vitae recusandae ducimus tempore tenetur porro harum placeat consectetur fuga iste quia esse cumque veniam molestiae.</h4>
                     <button class="btnDark">READ MORE</button>
                 </div>
             </div>
             <div class="container5">
                 <div class="section5A">
                     <h2>January's Promo: Buy 1 Get 1 Free!</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo molestias provident illum qui placeat, facere eaque enim iste praesentium nam a quas voluptatum ullam? Error, ullam maiores. Nobis, provident obcaecati.</p>
+                    <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo molestias provident illum qui placeat, facere eaque enim iste praesentium nam a quas voluptatum ullam? Error, ullam maiores. Nobis, provident obcaecati.</h4>
                     <button class="btnDark">READ MORE</button>
                 </div>
                 <div class="section5B">
@@ -103,7 +110,7 @@
                 </div>
                 <div class="section6B">
                     <h2>Lorem Ipsum Dolor Sit Amet</h2>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. At minus dignissimos cum doloremque placeat maiores odio laborum deleniti quia laboriosam, praesentium dolorum modi repellendus rem, cupiditate itaque veritatis culpa fuga!</p>
+                    <h5>Lorem ipsum dolor sit, amet consectetur adipisicing elit. At minus dignissimos cum doloremque placeat maiores odio laborum deleniti quia laboriosam, praesentium dolorum modi repellendus rem, cupiditate itaque veritatis culpa fuga!</h5>
                 </div>
                 <div class="section6C">
                     <div class="subSection6C1">
@@ -117,15 +124,15 @@
             <div class="container7">
                 <div class="section7A">
                     <div class="subSection7A1">
-                        <h2>Lorem Ipsum</h2>
+                        <h3>Lorem Ipsum</h3>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt debitis neque sed. Maiores omnis odio natus ut suscipit nisi inventore explicabo consequuntur deleniti, iusto tenetur quidem debitis, sequi autem adipisci?</p>
                     </div>
                     <div class="subSection7A2">
-                        <h2>Lorem Ipsum</h2>
+                        <h3>Lorem Ipsum</h3>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt debitis neque sed. Maiores omnis odio natus ut suscipit nisi inventore explicabo consequuntur deleniti, iusto tenetur quidem debitis, sequi autem adipisci?</p>
                     </div>
                     <div class="subSection7A3">
-                        <h2>Lorem Ipsum</h2>
+                        <h3>Lorem Ipsum</h3>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt debitis neque sed. Maiores omnis odio natus ut suscipit nisi inventore explicabo consequuntur deleniti, iusto tenetur quidem debitis, sequi autem adipisci?</p>
                     </div>
                 </div>
@@ -143,19 +150,27 @@
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores libero doloribus a veritatis deleniti veniam fugit, doloremque perferendis facere laborum molestias sint aperiam laboriosam placeat, distinctio id mollitia saepe nihil!</p>
                     </div>
                     <div class="subSection8B2">
-                        SEARCHBAR
+                        <form class="formSubscribe" id="formSubscribe"> 
+                            <input type="search" id="querySubscribe" name="qSub">
+                            <button class="btnSubscribe">SUBSCRIBE</button>
+                        </form>
                     </div>
                 </div>
             </div>
             <div class="footer">
-                <div class="footerSectionA">
-                    <h2>Title Here</h2>
+                <div class="footerSection1">
+                    <h3>Title Here</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id iusto consequuntur enim reprehenderit laudantium odit et voluptatum commodi sequi temporibus ipsa nobis, facere dolor sit, ut doloremque aspernatur animi possimus!</p>
-                    <div>4 icons</div>
+                    <div>
+                        <img src="./img/Group9/Facebook.png" alt="facebook icon">
+                        <img src="./img/Group9/Instagram.png" alt="instagram icon">
+                        <img src="./img/Group9/Twitter.png" alt="twitter icon">
+                        <img src="./img/Group9/WhatsApp.png" alt="whatsapp icon">
+                    </div>
                 </div>
-                <div class="footerSectionB">
-                    <h2>About</h2>
-                    <ul>
+                <div class="footerSection2">
+                    <h3>About</h3>
+                    <ul class="footerNavbar">
                         <li><a href="">History</a></li>
                         <li><a href="">Our Team</a></li>
                         <li><a href="">Brand Guidelines</a></li>
@@ -163,9 +178,9 @@
                         <li><a href="">Privacy Policy</a></li>
                     </ul>
                 </div>
-                <div class="footerSectionC">
-                    <h2>Services</h2>
-                    <ul>
+                <div class="footerSection3">
+                    <h3>Services</h3>
+                    <ul class="footerNavbar">
                         <li><a href="">How to Order</a></li>
                         <li><a href="">Our Product</a></li>
                         <li><a href="">Order Status</a></li>
@@ -173,9 +188,9 @@
                         <li><a href="">Payment Method</a></li>
                     </ul>
                 </div>
-                <div class="footerSectionD">
-                    <h2>Other</h2>
-                    <ul>
+                <div class="footerSection4">
+                    <h3>Other</h3>
+                    <ul class="footerNavbar">
                         <li><a href="">Contact Us</a></li>
                         <li><a href="">Help</a></li>
                         <li><a href="">Privacy</a></li>
