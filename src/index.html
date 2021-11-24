@@ -1,203 +1,189 @@
 <!DOCTYPE html> 
 <html lang="en"> 
     <head> 
-        <title>Italian Food Webpage</title>
         <meta charset="UTF-8"> 
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Italian Food Webpage</title>
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
         <meta name="italian food" content="This is an italian food restaurant concept website"> 
         <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet" href="resets.css">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <script src="app.js"></script>
 
     </head>
-
     <body>
-       <div class="wrapper">
-           <div class="container1 bg">
-               <div class="section1A">
-                   <ul class="navbar">
-                       <li class="navbarEl"><a href="">HOME</a></li>
-                       <li class="navbarEl"><a href="">MENU</a></li>
-                       <li class="navbarEl"><a href="">OUR STORY</a></li>
-                       <li class="navbarEl"><a href="">CONTACT US</a></li>
-                    </ul>
-                    <form class="formSearch" id="formSearch"> 
-                        <input class="inputSearch" type="search" id="querySer" name="qSer">
-                        <button class="btnSearch">
+           <div class="container grid-template-1 bg white-text">
+                <ul class="navbar pos-a">
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">MENU</a></li>
+                    <li><a href="">OUR STORY</a></li>
+                    <li><a href="">CONTACT US</a></li>
+                    <form class="text-form" id="form-search"> 
+                        <input class="text-input" type="search" id="querySer" name="qSer">
+                        <button class="btn-search">
                             <i class="material-icons md-30">search</i>
                         </button>
                     </form>
-                </div>
-                <div class="section1B">
-                    <img src="./img/Group1//Place Your Logo Here (Double Click to Edit).png" alt="logo">
+                </ul>
+                <section class="pos-b">
+                    <img src="./img/Group1/Place Your Logo Here (Double Click to Edit).png" alt="logo">
                     <h1>Italian Food</h1>
                     <h2>LOREM IPSUM DOLOR</h2>
-                    <button class="btnLight">READ MORE</button>
+                    <button class="btn light">READ MORE</button>
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. At eum, cumque itaque non harum quo, architecto earum omnis aut praesentium officiis odit vero officia molestiae, similique id eaque amet incidunt!</p>
-                </div>
-                <div class="section1C">
-                    <img class="subSection1C1" src="./img/Group1/Place Your Image Here (Double Click to Edit)-1.png" alt="pasta" class="img1_1">
-                    <img class="subSection1C2" src="./img/Group1/Place Your Image Here (Double Click to Edit)-2.png" alt="pesto" class="img1_2">
-                    <img class="subSection1C3" src="./img/Group1/Place Your Image Here (Double Click to Edit).png" alt="leaf" class="img1_3">
-                </div>
+                </section>
+                <section class="spagetti">
+                    <img src="./img/Group1/Place Your Image Here (Double Click to Edit)-1.png" alt="pasta" class="img1_1">
+                    <img src="./img/Group1/Place Your Image Here (Double Click to Edit)-2.png" alt="pesto" class="img1_2">
+                    <img src="./img/Group1/Place Your Image Here (Double Click to Edit).png" alt="leaf" class="img1_3">
+                </section>
             </div>
-            <div class="container2">
-                <div class="section2A">
-                    <h1>Lorem Ipsum Dolor</h1>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo deserunt eos sapiente nulla quae dicta, non tempora commodi dolore corrupti hic rerum doloribus natus id in dolorum minus architecto reprehenderit!</p>
-                </div>
-                <div class="section2B">
-                    <div class="subSection2B1">
+            <div class="container">
+                <section class="pos-a">
+                    <div>
+                        <h1>Lorem Ipsum Dolor</h1>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo deserunt eos sapiente nulla quae dicta, non tempora commodi dolore corrupti hic rerum doloribus natus id in dolorum minus architecto reprehenderit!</p>
+                    </div>
+                </section>
+                <section class="pos-b">
+                    <div>
                         <img src="./img/Group2/Dish 1.png" alt="pasta">
                         <h3>Lorem ipsum</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero sed perferendis fugit odit sit ea ut vel officiis soluta nulla magni, autem quo at ipsam, reiciendis nam magnam. Provident, debitis.</p>
                     </div>
-                    <div class="subSection2B2">
+                    <div >
                         <img src="./img/Group2/Dish 2.png" alt="pasta">
                         <h3>Lorem ipsum</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero sed perferendis fugit odit sit ea ut vel officiis soluta nulla magni, autem quo at ipsam, reiciendis nam magnam. Provident, debitis.</p>
                     </div>
-                    <div class="subSection2B3">
+                    <div>
                         <img src="./img/Group2/Dish 3.png" alt="pasta">
                         <h3>Lorem ipsum</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero sed perferendis fugit odit sit ea ut vel officiis soluta nulla magni, autem quo at ipsam, reiciendis nam magnam. Provident, debitis.</p>
                     </div>
-                </div>
-                <div class="section2C" >
-                    <button class="btnDark">SHOW MORE</button>
-                </div>
+                </section>
+                <section class="pos-c">
+                    <button class="btn dark">SHOW MORE</button>
+                </section>
             </div>
-            <div class="container3">
-                <div class="section3A">
+            <div class="container">
+                <section>
                     <h2>Lorem Ipsum Dolor</h2>
-                </div>
-                <div class="section3B">
-                    <div class="subSection3B1">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aperiam exercitationem asperiores? Placeat at, molestiae tenetur illo eaque est veritatis ad vel iusto atque, reiciendis voluptatem accusantium dolor rerum sed!</p>
-                    </div>
-                    <div class="subSection3B2">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste dolore esse minima porro expedita voluptatibus provident saepe in laudantium quia. Aperiam laborum, adipisci nam reiciendis eveniet est ex cumque odio!</p>
-                    </div>
-                </div>
-                <div class="section3C">
-                    <button class="btnLight">MORE INFO</button>
-                </div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis aperiam exercitationem asperiores? Placeat at, molestiae tenetur illo eaque est veritatis ad vel iusto atque, reiciendis voluptatem accusantium dolor rerum sed!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste dolore esse minima porro expedita voluptatibus provident saepe in laudantium quia. Aperiam laborum, adipisci nam reiciendis eveniet est ex cumque odio!</p>
+                </section>
+                <section>
+                    <button class="btn light">MORE INFO</button>
+                </section>
             </div>
-            <div class="container4">
-                <div class="section4A">
+            <div class="container">
+                <section class="big-spagetti">
                     <img src="./img/Group4/Place Your Image Here (Double Click to Edit).png" alt="pasta">
-                </div>
-                <div class="section4B">
+                </section>
+                <section>
                     <h2>Discount up to 50% All Excursions</h2>
                     <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat inventore, sed ratione, quod nisi vitae recusandae ducimus tempore tenetur porro harum placeat consectetur fuga iste quia esse cumque veniam molestiae.</h4>
-                    <button class="btnDark">READ MORE</button>
-                </div>
+                    <button class="btn dark">READ MORE</button>
+                </section>
             </div>
-            <div class="container5">
-                <div class="section5A">
+            <div class="container">
+                <section>
                     <h2>January's Promo: Buy 1 Get 1 Free!</h2>
                     <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo molestias provident illum qui placeat, facere eaque enim iste praesentium nam a quas voluptatum ullam? Error, ullam maiores. Nobis, provident obcaecati.</h4>
-                    <button class="btnDark">READ MORE</button>
-                </div>
-                <div class="section5B">
+                    <button class="btn dark">READ MORE</button>
+                </section>
+                <section class="big-spagetti">
                     <img src="./img/Group5/Place Your Image Here (Double Click to Edit).png" alt="pasta">
-                </div>
+                </section>
             </div>
-            <div class="container6 bg">
-                <div class="section6A">
+            <div class="container bg white-text">
+                <section>
                     <img src="./img/Group6/Place Your Image Here (Double Click to Edit)-2.png" alt="leafs">
-                </div>
-                <div class="section6B">
+                </section>
+                <section>
                     <h2>Lorem Ipsum Dolor Sit Amet</h2>
                     <h5>Lorem ipsum dolor sit, amet consectetur adipisicing elit. At minus dignissimos cum doloremque placeat maiores odio laborum deleniti quia laboriosam, praesentium dolorum modi repellendus rem, cupiditate itaque veritatis culpa fuga!</h5>
-                </div>
-                <div class="section6C">
-                    <div class="subSection6C1">
+                </section>
+                <section>
                         <img src="./img/Group6/Place Your Image Here (Double Click to Edit).png" alt="pizza">
-                    </div>
-                    <div class="subSection6C2">
                         <img src="./img/Group6/Place Your Image Here (Double Click to Edit)-1.png" alt="slice of pizza">
-                    </div>
-                </div>
+                </section>
             </div>
-            <div class="container7">
-                <div class="section7A">
-                    <div class="subSection7A1">
+            <div class="container">
+                <section>
+                    <div>
                         <h3>Lorem Ipsum</h3>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt debitis neque sed. Maiores omnis odio natus ut suscipit nisi inventore explicabo consequuntur deleniti, iusto tenetur quidem debitis, sequi autem adipisci?</p>
                     </div>
-                    <div class="subSection7A2">
+                    <div>
                         <h3>Lorem Ipsum</h3>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt debitis neque sed. Maiores omnis odio natus ut suscipit nisi inventore explicabo consequuntur deleniti, iusto tenetur quidem debitis, sequi autem adipisci?</p>
                     </div>
-                    <div class="subSection7A3">
+                    <div>
                         <h3>Lorem Ipsum</h3>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt debitis neque sed. Maiores omnis odio natus ut suscipit nisi inventore explicabo consequuntur deleniti, iusto tenetur quidem debitis, sequi autem adipisci?</p>
                     </div>
-                </div>
-                <div class="section7B">
+                </section>
+                <section>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, deleniti. Nostrum sit esse nesciunt eaque, praesentium itaque? Ex dolores voluptatibus sapiente odio ullam, ipsam nostrum provident illum cupiditate temporibus labore!</p>
-                </div>
+                </section>
             </div>
-            <div class="container8">
-                <div class="section8A">
+            <div class="container bg-color white-text">
+                <section>
                     <img src="./img/Group8/Place Your Image Here (Double Click to Edit).png" alt="leafs">
-                </div>
-                <div class="section8B">
-                    <div class="subSection8B1">
+                </section>
+                <section>
+                    <div>
                         <h1>Title Here</h1>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores libero doloribus a veritatis deleniti veniam fugit, doloremque perferendis facere laborum molestias sint aperiam laboriosam placeat, distinctio id mollitia saepe nihil!</p>
                     </div>
-                    <div class="subSection8B2">
-                        <form class="formSubscribe" id="formSubscribe"> 
-                            <input class="inputSubscribe" type="email" name="email" required>
-                            <button class="btnSubscribe">
-                                SUBSCRIBE
-                            </button>
-                        </form>
-                    </div>
-                </div>
+                    <form class="text-form" id="formSubscribe"> 
+                        <input class="text-input" type="email" name="email" required>
+                        <button class="btn light">
+                            SUBSCRIBE
+                        </button>
+                    </form>
+                </section>
             </div>
-            <div class="footer">
-                <div class="footerSection1">
+            <div class="container">
+                <section>
                     <h3>Title Here</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id iusto consequuntur enim reprehenderit laudantium odit et voluptatum commodi sequi temporibus ipsa nobis, facere dolor sit, ut doloremque aspernatur animi possimus!</p>
-                    <div class="footerSubSection1A">
-                        <img class="iconMedia" src="./img/Group9/Facebook.png" alt="facebook icon">
-                        <img class="iconMedia" src="./img/Group9/Instagram.png" alt="instagram icon">
-                        <img class="iconMedia" src="./img/Group9/Twitter.png" alt="twitter icon">
-                        <img class="iconMedia" src="./img/Group9/WhatsApp.png" alt="whatsapp icon">
-                    </div>
+                </section>
+                <div class="icons">
+                    <img src="./img/Group9/Facebook.png" alt="facebook icon">
+                    <img src="./img/Group9/Instagram.png" alt="instagram icon">
+                    <img src="./img/Group9/Twitter.png" alt="twitter icon">
+                    <img src="./img/Group9/WhatsApp.png" alt="whatsapp icon">
                 </div>
-                <div class="footerSection2">
+                <section>
                     <h3>About</h3>
-                    <ul class="footerNavbar">
+                    <ul class="footer-ul">
                         <li><a href="">History</a></li>
                         <li><a href="">Our Team</a></li>
                         <li><a href="">Brand Guidelines</a></li>
                         <li><a href="">Terms & Condition</a></li>
                         <li><a href="">Privacy Policy</a></li>
                     </ul>
-                </div>
-                <div class="footerSection3">
+                </section>
+                <section>
                     <h3>Services</h3>
-                    <ul class="footerNavbar">
+                    <ul class="footer-ul">
                         <li><a href="">How to Order</a></li>
                         <li><a href="">Our Product</a></li>
                         <li><a href="">Order Status</a></li>
                         <li><a href="">Promo</a></li>
                         <li><a href="">Payment Method</a></li>
                     </ul>
-                </div>
-                <div class="footerSection4">
+                </section>
+                <section>
                     <h3>Other</h3>
-                    <ul class="footerNavbar">
+                    <ul class="footer-ul">
                         <li><a href="">Contact Us</a></li>
                         <li><a href="">Help</a></li>
                         <li><a href="">Privacy</a></li>
                     </ul>
-                </div>
+                </section>
             </div>
-       </div>
     </body> 
 </html>
