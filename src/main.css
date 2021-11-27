@@ -6,7 +6,6 @@
     border: none;
 }
 .light {
-
 }
 .btn.light:hover {
     color: greenyellow;
@@ -27,21 +26,20 @@
     background-image: url('./img/Group1/Header\ Background.png');
     background-size: cover;
     position: relative;
-    padding-bottom: 25em;
-    z-index: 1000;
+    width: 100%;
+    z-index: -10;
 }
 .bg2 {
     background-image: url('./img/Group6/Header\ Background.png');
     background-size: cover;
     position: relative;
-    padding-bottom: 25em;
-    z-index: 1000;
-
+    width: 100%;
+    z-index: -10;
 }
 .bg-color {
     background-color: #27292C;
     position: relative;
-    z-index: 1000;
+    z-index: -10;
 }
 
 .black-text {
@@ -79,6 +77,7 @@
 /* SPAGETTi */
 .spagetti {
     position: relative;
+    height: 90vw;
     left: 2em;
 }
 
@@ -86,23 +85,22 @@
 .spagetti > img:first-of-type {
     width: 70%;
     position: absolute;
-    top: 0;
 }
 
 /* pesto */
 .spagetti > img:nth-of-type(2) {
     width: 35%;
     position: absolute;
-    left: 0em;
-    top: 17em;
+    left: -3vw;
+    top: 55vw;
 }
 
 /* leaf */
 .spagetti > img:nth-of-type(3) {
     width: 70%;
     position: absolute;
-    left: 9em;
-    top: 14em;
+    left: 25vw;
+    top: 50vw;
 }
 
 /* BIG SPAGETTI */
@@ -111,32 +109,40 @@
 }
 
 /* PIZZA */
+.pizza {
+    position: relative;
+    height: 80vw;
+    left: 1em;
+}
 /* leaf */
-.bg2 > section:first-of-type > img {
+.bg2 > img:first-of-type {
     position: absolute;
+    width: 100%;
     top: -3em;
-    z-index: 2000;
+    z-index: -5;
+
 }
 
 /* pizza */
-.bg2 > section:nth-of-type(3) > img:first-of-type {
+.bg2 > section:nth-of-type(2) > img:nth-of-type(1) {
     position: absolute;
-    width: 60%;
+    width: 65%;
 }
 
 /* slice */
-.bg2 > section:nth-of-type(3) > img:nth-of-type(2) {
+.bg2 > section:nth-of-type(2) > img:nth-of-type(2) {
     position: absolute;
     width: 30%;
-    top: 34em;
-    left: 2em;
+    top: 35vw;
+    left: 10vw;
 }
 
 /* BG-COLOR */
-.bg-color > section:first-of-type > img {
+.bg-color > section:first-of-type > img:first-of-type {
     position: absolute;
+    width: 100%;
     top: -3em;
-    z-index: 2000;
+    z-index: -5;
 }
 
 /* search bar */
