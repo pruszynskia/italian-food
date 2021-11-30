@@ -1,171 +1,57 @@
 .btn {
+    position: relative;
     height: 50px;
     width: 200px;
     border-radius: 50px;
     font-size: large;
     border: none;
 }
-.light {
+.btn__light {
 }
-.btn.light:hover {
+.btn.btn__light:hover {
     color: greenyellow;
     cursor: pointer;
 }
 
-.dark {
+.btn__dark {
+    position: relative;
     color: white;
     background-color: #27292C;
 }
-
-.btn.dark:hover {
+.btn.btn__dark:hover {
     color: greenyellow;
     cursor: pointer;
-}
-
-.bg {
-    background-image: url('./img/Group1/Header\ Background.png');
-    background-size: cover;
-    position: relative;
-    width: 100%;
-    z-index: -10;
-}
-.bg2 {
-    background-image: url('./img/Group6/Header\ Background.png');
-    background-size: cover;
-    position: relative;
-    width: 100%;
-    z-index: -10;
-}
-.bg-color {
-    background-color: #27292C;
-    position: relative;
-    z-index: -10;
-}
-
-.black-text {
-    color: #000;
-}
-.white-text {
-    color: #fff;
-}
-
-/* CONTAINER 1 */
-.container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-.container > section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 0 4em;
-}
-
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1em;
-}
-
-/* LOGO */
-.logo {
-    width: 30%;
-}
-
-/* SPAGETTi */
-.spagetti {
-    position: relative;
-    height: 90vw;
-    left: 2em;
-}
-
-/* pasta */
-.spagetti > img:first-of-type {
-    width: 70%;
-    position: absolute;
-}
-
-/* pesto */
-.spagetti > img:nth-of-type(2) {
-    width: 35%;
-    position: absolute;
-    left: -3vw;
-    top: 55vw;
-}
-
-/* leaf */
-.spagetti > img:nth-of-type(3) {
-    width: 70%;
-    position: absolute;
-    left: 25vw;
-    top: 50vw;
-}
-
-/* BIG SPAGETTI */
-.big-spagetti > img {
-    width: 100%;
-}
-
-/* PIZZA */
-.pizza {
-    position: relative;
-    height: 80vw;
-    left: 1em;
-}
-/* leaf */
-.bg2 > img:first-of-type {
-    position: absolute;
-    width: 100%;
-    top: -3em;
-    z-index: -5;
-
-}
-
-/* pizza */
-.bg2 > section:nth-of-type(2) > img:nth-of-type(1) {
-    position: absolute;
-    width: 65%;
-}
-
-/* slice */
-.bg2 > section:nth-of-type(2) > img:nth-of-type(2) {
-    position: absolute;
-    width: 30%;
-    top: 35vw;
-    left: 10vw;
-}
-
-/* BG-COLOR */
-.bg-color > section:first-of-type > img:first-of-type {
-    position: absolute;
-    width: 100%;
-    top: -3em;
-    z-index: -5;
 }
 
 /* search bar */
 .text-form {
     display: flex;
+    justify-content: space-between;
+    position: relative;
     background-color: white;
-    display: flex;
-    flex-direction: row;
     align-items: center;
     border-radius: 2em;
     margin: 2em;
 }
+.text-form.btn {
+    margin-left: auto;
+}
 .text-input {
+    display: flex;
+    /* justify-self: stretch; */
+    position: relative;
     all: unset;
     font: 16px system-ui;
     color: black;
     padding-left: 1em;
+    width: 100%;
 }
 ::placeholder {
     color: #fff;
     opacity: 0.7; 
 }
-.btn-search {
+.btn__search {
+    position: relative;
     all: unset;
     cursor: pointer;
     width: 44px;
@@ -178,6 +64,131 @@ i:hover {
     cursor: pointer;
 }
 
+.bg {
+    background-image: url('./img/Group1/Header\ Background.png');
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    color: #fff;
+}
+.bg2 {
+    background-image: url('./img/Group6/Header\ Background.png');
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    color: #fff;
+}
+.bg-color {
+    background-color: #27292C;
+    position: relative;
+    color: #fff;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 2em;
+}
+.card__content {
+    display: flex;
+    flex-direction: column;
+}
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 4em;
+}
+.card__img {
+    position: absolute;
+}
+
+/* card 1 */
+.card__navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+}
+
+/* LOGO in card 1 */
+.logo {
+    width: 10em;
+}
+
+/* SPAGETTi in card 1 */
+.spagetti {
+    position: relative;
+    height: 90vw;
+    left: 2em;
+}
+
+/* pasta */
+.spagetti > img:first-of-type {
+    width: 70%;
+}
+
+/* pesto */
+.spagetti > img:nth-of-type(2) {
+    width: 35%;
+    left: -3vw;
+    top: 55vw;
+}
+
+/* leaf */
+.spagetti > img:nth-of-type(3) {
+    width: 70%;
+    left: 25vw;
+    top: 50vw;
+}
+
+/* SMALL PASTA in card 2 */
+.card:nth-of-type(2) > section > div > img {
+    position: relative;
+    width: 100%;
+}
+
+/* BIG SPAGETTI */
+.big-spagetti > img {
+    position: relative;
+    width: 50vmin;
+}
+
+/* PIZZA */
+.pizza {
+    position: relative;
+    height: 50vw;
+    left: 1em;
+}
+/* leaf */
+.bg2 > img:first-of-type {
+    width: 100%;
+    top: -3em;
+}
+
+/* pizza */
+.pizza > img:nth-of-type(1) {
+    width: 65%;
+}
+
+/* slice */
+.pizza > img:nth-of-type(2) {
+    width: 30%;
+    top: 35vw;
+    left: 10vw;
+}
+
+.card:nth-of-type(7) {
+    padding-top: 15vmin;
+    padding-bottom: 15vmin;
+}
+/* BG-COLOR */
+.bg-color > section:first-of-type > img:first-of-type {
+    width: 100%;
+    top: -3em;
+}
+
+
 /* FOOTER */
 .icons {
     display: flex;
@@ -188,13 +199,13 @@ i:hover {
     width: 20%;
     margin: 20px;
 }
-.footer-ul {
+.card__footer {
     display: grid;
     gap: 1em;
 }
 
 @media (max-width: 767px) {
-    .navbar {
+    .card__navbar {
         display: flex;
         flex-direction: column;
         row-gap: 2em;
@@ -204,9 +215,64 @@ i:hover {
     }
 }
 @media (min-width: 1200px) {
-    .container {
+    .card__content {
+        flex-direction: row;
+        gap: 5vw;
+    }
+    .card > section {
+        display: flex;
+        align-content: space-between;
+        padding: 0 8vw;
+    }
+    
+    /* card 1 */
+    .card:first-of-type {
         display: grid;
-        padding: 0 10em;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 0.1fr 1fr;
+    }
+    .card__navbar {
+        grid-row: 1/2;
+        grid-column: 1/3;
+        align-items: center;
+        padding: 1em;
+    }
+    .card:first-of-type > section {
+        grid-row: 2/3;
+        align-items: center;
+        padding: 0 4em;
+    }
+    /* SPAGETTi in card 1 */
+    .spagetti {
+        position: relative;
+        height: 60vw;
+        top: 20vw;
+        left: 2em;
+    }
+    .card:first-of-type > section:nth-of-type(2) > img {
+        position: relative;
+    }
+    /* pesto */
+    .card:first-of-type > section:nth-of-type(2) > img:nth-of-type(2) {
+        top: -8vw;
+        left: -15vw;
+    }
+    /* leaf */
+    .card:first-of-type > section:nth-of-type(2) > img:nth-of-type(3) {
+        top: -23vw;
+        left: 5vw;
+    }
+
+    /* card 2 */
+    .card:nth-of-type(2) > section:nth-of-type(2) {
+        display: flex;
+        flex-direction: row;
+        gap: 5vw;
+    }
+    
+    /* card 8 */
+    .card:nth-of-type(8) {
+        height: 80vmin;
     }
 
 }
