@@ -1,3 +1,6 @@
+h1, h2, h3 {
+    align-self: center;
+}
 .btn {
     position: relative;
     height: 50px;
@@ -5,6 +8,7 @@
     border-radius: 50px;
     font-size: large;
     border: none;
+    align-self: center;
 }
 .btn__light {
 }
@@ -38,7 +42,6 @@
 }
 .text-input {
     display: flex;
-    /* justify-self: stretch; */
     position: relative;
     all: unset;
     font: 16px system-ui;
@@ -83,20 +86,26 @@ i:hover {
     position: relative;
     color: #fff;
 }
+
+/* GLOBAL */
 .card {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
+    align-content: center;
     padding-bottom: 2em;
+    min-height: 40vw;
 }
 .card__content {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-content: center;
 }
 section {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    justify-content: center;
     padding: 0 4em;
 }
 .card__img {
@@ -108,7 +117,7 @@ section {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1em;
+    margin-left: 3vw;
 }
 
 /* LOGO in card 1 */
@@ -158,12 +167,13 @@ section {
 .pizza {
     position: relative;
     height: 50vw;
-    left: 1em;
+    top: 15vmin;
+    left: 10vmin;
 }
 /* leaf */
 .bg2 > img:first-of-type {
     width: 100%;
-    top: -3em;
+    top: -5vmin;
 }
 
 /* pizza */
@@ -174,16 +184,17 @@ section {
 /* slice */
 .pizza > img:nth-of-type(2) {
     width: 30%;
-    top: 35vw;
-    left: 10vw;
+    top: 40vmin;
+    left: 5vmin;
 }
 
 .card:nth-of-type(7) {
     padding-top: 15vmin;
     padding-bottom: 15vmin;
 }
-/* BG-COLOR */
-.bg-color > section:first-of-type > img:first-of-type {
+
+/* BG-COLOR leaf img */
+.bg-color > img {
     width: 100%;
     top: -3em;
 }
@@ -193,6 +204,7 @@ section {
 .icons {
     display: flex;
     justify-content: space-between;
+    width: 20em
 }
 .icons > img {
     filter: invert(100%);
@@ -211,7 +223,7 @@ section {
         row-gap: 2em;
         justify-content: space-between;
         align-items: flex-start;
-        padding: 2em;
+        /* padding: 2em; */
     }
 }
 @media (min-width: 1200px) {
@@ -219,7 +231,7 @@ section {
         flex-direction: row;
         gap: 5vw;
     }
-    .card > section {
+    .card section {
         display: flex;
         align-content: space-between;
         padding: 0 8vw;
@@ -235,7 +247,6 @@ section {
         grid-row: 1/2;
         grid-column: 1/3;
         align-items: center;
-        padding: 1em;
     }
     .card:first-of-type > section {
         grid-row: 2/3;
@@ -270,6 +281,22 @@ section {
         gap: 5vw;
     }
     
+    /* PIZZA in card 6 */
+    .pizza {
+        left: 20vmin;
+    }
+    /* pizza */
+    .pizza > img:nth-of-type(1) {
+        width: 65%;
+    }
+
+    /* slice */
+    .pizza > img:nth-of-type(2) {
+        width: 30%;
+        top: 55vmin;
+        left: 5vmin;
+    }
+
     /* card 8 */
     .card:nth-of-type(8) {
         height: 80vmin;
