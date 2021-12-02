@@ -96,6 +96,10 @@ i:hover {
     padding-bottom: 2em;
     min-height: 40vw;
 }
+
+.card:first-of-type ~ .card {
+    padding: 4em 0;
+}
 .card__content {
     display: flex;
     flex-direction: column;
