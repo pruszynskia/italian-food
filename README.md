@@ -1,5 +1,5 @@
 # Italian Food
-[!logo](images/Place Your Logo Here (Double Click to Edit).png)
+[!logo](images/logo.png)
 
 ## Table of contents
 * [General info](#general-info)
