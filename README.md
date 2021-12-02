@@ -1,5 +1,5 @@
 # Italian Food
-[!alt text](../src/img/Group1/Place Your Logo Here (Double Click to Edit).png)
+[!alt text]()
 
 ## Table of contents
 * [General info](#general-info)
@@ -16,4 +16,3 @@ The main goal of this project is to show pure HTML and CSS skils.
 
 ## Setup
 To run this project, open index.html file from "italian-food/src/index.html" directory in broswere of your choice.
-
