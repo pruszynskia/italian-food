@@ -1,5 +1,5 @@
 # Italian Food
-[!alt text](https://github.com/pruszynskia/italian-food/src/img/Group1/Place Your Logo Here (Double Click to Edit).png)
+[!alt text](/src/img/Group1/Place Your Logo Here (Double Click to Edit).png)
 
 ## Table of contents
 * [General info](#general-info)
