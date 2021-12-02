@@ -1,5 +1,6 @@
-# Italian Food
 <img src="images/logo.png">
+
+# Italian Food
 
 ## Table of contents
 * [General info](#general-info)
