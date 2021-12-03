@@ -1,6 +1,7 @@
 # Italian Food
 An Italian Restaurant website <br />
-<img src="images/logo.png">
+
+<img align="center" src="images/logo.png">
 
 ## Table of contents
 * [General Information](#general-information)
