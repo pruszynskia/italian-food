@@ -2,7 +2,7 @@
 An Italian Restaurant website <br />
 
 <p align="center">
-    <img src="images/logo.png" width="200px">
+    <img src="images/logo.png" width="100px">
 </p>
 
 ## Table of contents
