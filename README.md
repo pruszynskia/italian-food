@@ -38,4 +38,5 @@ This project is based on .psd template from www.freepik.com [@template](https://
 
 ## Contact
 Created by Andrzej Pruszynski <br />
-<a href="mailto:andrzej.pruszynski90@gmail.com?"><img src="https://img.shields.io/badge/gmail-%23DD0031.svg?&style=for-the-badge&logo=gmail&logoColor=white"/></a> - feel free to contact me!
+
+<a href="mailto:andrzej.pruszynski90@gmail.com"><img src="https://img.shields.io/badge/gmail-%23DD0031.svg?&style=for-the-badge&logo=gmail&logoColor=white"/></a> - feel free to contact me!
