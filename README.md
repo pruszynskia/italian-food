@@ -37,4 +37,4 @@ You can view an offline HTML file in the browser in several ways:
 This project is based on .psd template from www.freepik.com [@template](https://www.freepik.com/free-psd/web-template-with-landing-page-traditional-italian-food-restaurant_7888138.htm#page=1&query=website%20templates&position=0&from_view=keyword)
 
 ## Contact
-Created by Andrzej Pruszynski andrzej.pruszynski90@gmail.com - feel free to contact me!
+Created by [Andrzej Pruszynski](mailto:andrzej.pruszynski90@gmail.com) - feel free to contact me!
