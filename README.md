@@ -40,3 +40,5 @@ This project is based on .psd template from www.freepik.com [@template](https://
 Created by Andrzej Pruszynski <br />
 
 <a href="mailto:andrzej.pruszynski90@gmail.com">andrzej.pruszynski90@gmail.com</a> - feel free to contact me!
+
+[Contact Us](mailto:andrzej.pruszynski90@gmail.com)
