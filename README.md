@@ -1,9 +1,9 @@
 # Italian Food
 An Italian Restaurant website <br />
 
-<div style="text-align:center">
-    <img src="images/logo.png">
-</div>
+<p align="center">
+    <img src="images/logo.png" width="200px">
+</p>
 
 ## Table of contents
 * [General Information](#general-information)
@@ -40,5 +40,3 @@ This project is based on .psd template from www.freepik.com [@template](https://
 Created by Andrzej Pruszynski <br />
 
 <a href="mailto:andrzej.pruszynski90@gmail.com">andrzej.pruszynski90@gmail.com</a> - feel free to contact me!
-
-[Contact Us](mailto:andrzej.pruszynski90@gmail.com)
